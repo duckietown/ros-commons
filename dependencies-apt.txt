@@ -12,3 +12,4 @@ ros-noetic-image-transport-plugins
 ros-noetic-tf-conversions
 ros-noetic-joy
 ros-noetic-mavros-msgs
+ros-noetic-opencv-apps
