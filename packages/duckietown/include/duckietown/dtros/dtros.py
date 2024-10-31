@@ -231,10 +231,12 @@ class DTROS:
         # update ros parameters
         for k, v in user_cfg.items():
             k = f"~{k}"
-            self.logdebug(f"User configuration files update parameter '{k}': "
-                          f"{rospy.get_param(k, None)} -> {v} ")
+            try:
+                self.logdebug(f"User configuration files update parameter '{k}': "
+                            f"{rospy.get_param(k, None)} -> {v} ")
+            except KeyError:
+                self.logdebug(f"User configuration files set parameter '{k}': {v}")
             rospy.set_param(k, v)
-
     # Read-only properties for the private attributes
     @property
     def is_ghost(self):
