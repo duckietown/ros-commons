@@ -1,0 +1,10 @@
+# PIDDebugInfo.msg
+Vector3 current_position
+Vector3 desired_position
+Vector3 position_error
+Vector3 current_velocity
+Vector3 desired_velocity
+Vector3 velocity_error
+Vector3 pid_error
+int16[4] fly_command
+float32 throttle_integral
