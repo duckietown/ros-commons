@@ -66,6 +66,7 @@ add_message_files(
   ParamTuner.msg
   Pixel.msg
   PIDDiagnostics.msg
+  PIDState.msg
   Pose2DStamped.msg
   Rect.msg
   Rects.msg

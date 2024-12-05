@@ -7,4 +7,10 @@ geometry_msgs/Vector3 desired_velocity
 geometry_msgs/Vector3 velocity_error
 geometry_msgs/Vector3 pid_error
 DroneControl fly_command
+
+PIDState pid_pitch
+PIDState pid_roll
+PIDState pid_yaw
+PIDState pid_throttle
+
 float32 throttle_integral
