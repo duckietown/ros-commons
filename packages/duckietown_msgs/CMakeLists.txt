@@ -65,6 +65,8 @@ add_message_files(
   ObstacleType.msg
   ParamTuner.msg
   Pixel.msg
+  PIDDiagnostics.msg
+  PIDState.msg
   Pose2DStamped.msg
   Rect.msg
   Rects.msg

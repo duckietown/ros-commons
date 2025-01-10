@@ -1,0 +1,16 @@
+# PIDDebugInfo.msg
+geometry_msgs/Vector3 current_position
+geometry_msgs/Vector3 desired_position
+geometry_msgs/Vector3 position_error
+geometry_msgs/Vector3 current_velocity
+geometry_msgs/Vector3 desired_velocity
+geometry_msgs/Vector3 velocity_error
+geometry_msgs/Vector3 pid_error
+DroneControl fly_command
+
+PIDState pid_pitch
+PIDState pid_roll
+PIDState pid_yaw
+PIDState pid_throttle
+
+float32 throttle_integral
